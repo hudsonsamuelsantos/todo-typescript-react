@@ -25,7 +25,7 @@ export function TaskList({ taskList, handleDelete, handleEdit }: Props) {
                     </div>
                 ))
             ) : (
-                <span>Não temos tarefas</span>
+                <span>Não temos tarefas...</span>
             )}
         </>
     )

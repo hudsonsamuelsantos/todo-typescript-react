@@ -59,6 +59,7 @@ export function TaskForm({ btnText, taskList, setTaskList, task, handleUpdate }:
                     name="title"
                     placeholder="Título da tarefa"
                     onChange={handleChange}
+                    required
                     value={title}
                 />
             </div>
@@ -66,9 +67,10 @@ export function TaskForm({ btnText, taskList, setTaskList, task, handleUpdate }:
             <div className={styles.input_container}>
                 <label htmlFor="difficulty">Dificuldade:</label>
                 <input
-                    type="text"
+                    type="number"
                     name="difficulty"
                     placeholder="Dificuldade da tarefa"
+                    min={0}
                     onChange={handleChange}
                     value={difficulty}
                 />
