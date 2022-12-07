@@ -17,6 +17,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - TypeScript
 - React
 - CSS Modules
+- Bootstrap Icons
 
 ## :memo: Licença
 
